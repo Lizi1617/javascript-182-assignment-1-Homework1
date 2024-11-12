@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true,
+        "commonjs": true
+    },
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "ignorePatterns": [
+        "node_modules/",
+        "jest.setup.js",
+        "**/tests/*.js"
+    ],
+    "rules": {
+        "semi": ["error", "always"],
+        "indent": ["error", 4]
+    }
+}
